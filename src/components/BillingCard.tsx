@@ -63,7 +63,7 @@ const BillingCard: React.FC<BillingCardProps> = ({ plan }) => {
         <Button
           variant="contained"
           color="primary"
-          sx={{ marginTop: "10px" }}
+          sx={{ marginTop: "10px", borderRadius: 2 }}
           aria-label={`Select the ${plan.name} plan for $${plan.price} per month`}
         >
           Select Plan
