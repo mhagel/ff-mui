@@ -1,6 +1,7 @@
 import React from "react";
 import { BillingCards } from "./BillingCards";
 import { BillingPlan } from "./BillingCard";
+import { Box, Typography } from "@mui/material";
 
 const billingPlans: BillingPlan[] = [
   {
@@ -21,7 +22,21 @@ const billingPlans: BillingPlan[] = [
 ];
 
 const Billing: React.FC = () => {
-  return <BillingCards plans={billingPlans} />;
+  return (
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        padding: 2,
+      }}
+    >
+      <Typography variant="h4" component="h1" gutterBottom color="text.primary">
+        Choose the Plan that works best for you!
+      </Typography>
+      <BillingCards plans={billingPlans} />;
+    </Box>
+  );
 };
 
 export { Billing };

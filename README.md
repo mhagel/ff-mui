@@ -1,6 +1,6 @@
 # BillingCard Demo
 
-To speed up development, I use Github Copilot. It helped me do some boilerplate React component code.
+To speed up development, I use Github Copilot. It helped me do some boilerplate React component code, and I asked it to give me some a11y tips to make sure I didn't forget anything.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

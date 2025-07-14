@@ -19,4 +19,16 @@ export const theme = createTheme({
       paper: "#ffffff",
     },
   },
+  typography: {
+    fontFamily: [
+      '"DM Sans"',
+      "Roboto",
+      '"Helvetica Neue"',
+      "Arial",
+      "sans-serif",
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(","),
+  },
 });

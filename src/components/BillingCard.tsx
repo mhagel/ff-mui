@@ -25,6 +25,7 @@ const BillingCard: React.FC<BillingCardProps> = ({ plan }) => {
         margin: "20px",
         backgroundColor: theme.palette.background.paper,
         border: `1px solid ${theme.palette.primary.main}`,
+        borderRadius: 4,
       }}
       aria-label={`Billing plan: ${plan.name}`}
       aria-labelledby={headingId}
@@ -49,7 +50,7 @@ const BillingCard: React.FC<BillingCardProps> = ({ plan }) => {
                 sx={{
                   width: 12,
                   height: 12,
-                  color: theme.palette.secondary.main,
+                  color: theme.palette.secondary.light,
                 }}
                 aria-hidden="true"
                 focusable="false"
